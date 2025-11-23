@@ -4,10 +4,10 @@
   background-size: cover;
   background-position: top;
   display: flex;
-  justify-content: flex-start;
-  align-items: center; /* moves text to vertical middle */
-  text-align: left;
-  padding: 150px 0 100px 100px; /* adjusted padding */
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  text-align: center;      /* center text alignment */
+  padding: 150px 0 100px 0; 
   margin-left: -10px;
 }
 
@@ -15,6 +15,9 @@
   font-size: 4rem;
   color: white;
   font-family: "Tilt Warp", sans-serif;
+   margin: 0;
+  line-height: 1; 
+   margin-bottom: 10px;
 }
 
 .hero-text p {
@@ -61,19 +64,26 @@ font-family: "Gabarito", sans-serif;
 }
 
 .nostalgia {
+  display: block;
+  margin-bottom: -10px; 
   color: #96DDA7;
   font-family: "Tilt Warp", sans-serif;
+   font-size: 5.5rem;
 }
 
 .archive {
   color: #8CEDD1;
   font-family: "Tilt Warp", sans-serif;
+   font-size: 4.5rem;
+   display: block;
 }
 
 .hero-text .subtitle {
   color: #EAF4C8;
   font-size: 1.5rem;
   font-family: "Tilt Warp", sans-serif;
+    margin-top: 0;       /* removes extra top spacing */
+  line-height: 1.2; 
 }
 
 /* ===============================
@@ -128,4 +138,9 @@ font-family: "Gabarito", sans-serif;
   margin-bottom: 30px;
   line-height: 1.6;
   text-align: left; 
+}
+
+.nostalgia,
+.archive {
+  display: block;
 }
