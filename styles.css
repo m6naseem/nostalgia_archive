@@ -1,7 +1,7 @@
 .hero {
   height: 100vh;
   background-image: url("Background-Img.png");
-  background-size: 190%;
+  background-size: 130%;
   background-position: center top;
   display: flex;
   justify-content: center; /* center horizontally */
