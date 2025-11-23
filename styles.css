@@ -7,9 +7,8 @@
   justify-content: flex-start;   /* move LEFT */
   align-items: flex-end;         /* move DOWN */
   text-align: left;              /* text aligns left */
-  padding: 0 0 400px 100px;
+padding: 150px 0 100px 100px;
   margin-left: -10px;
-    padding-top: -100px; /* pushes content below the header */
 }
 
 .hero-text h1 {
