@@ -1,12 +1,13 @@
 .hero {
-  height: 100vh; 
+    height: 100vh;
   background-image: url("Background-Img.png");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: flex-start;   /* move LEFT */
+  align-items: flex-end;         /* move DOWN */
+  text-align: left;              /* text aligns left */
+  padding: 0 0 400px 100px;
     padding-top: 120px; /* pushes content below the header */
 }
 
