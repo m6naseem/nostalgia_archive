@@ -8,7 +8,7 @@
   align-items: center;     /* center vertically */
   text-align: center;      /* center text alignment */
 padding: 0 0 100px 0;
-  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .hero-text h1 {
